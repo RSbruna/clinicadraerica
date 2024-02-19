@@ -1,0 +1,82 @@
+/* Estilos para telas maiores */
+.header-bar {
+    background: #000000;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    color: #f2e4e8;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    color: #fff1f1;
+    font-family: "Montserrat";
+    font-size: 30px;
+    font-weight: 400;
+    list-style-type: none;
+    text-decoration: none;
+    margin: 20px 0px;
+    justify-content: flex-end;
+}
+
+header .menu li {
+    margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header ul {
+    width: 60%;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #ffffff;
+    transition: color 0.5s ease;
+}
+
+.menu a:hover {
+    color: #767272;
+}
+
+.menu-toggle {
+    display: none;
+}
+
+/* Estilos para telas menores (modo mobile) */
+@media screen and (max-width: 768px) {
+    .header-bar {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .menu {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu.active {
+        display: flex;
+    }
+
+    .menu a {
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .menu-toggle {
+        display: block;
+        cursor: pointer;
+    }
+
+    .areaMenuDesktop {
+        display: none;
+    }
+} 

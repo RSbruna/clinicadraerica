@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <!-- Configuração de caracteres e viewport para responsividade -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <!-- Título da página -->
+    <title>Projetos</title>
+    <!-- Importação de estilos externos -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css" integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/grids-responsive-min.css">
+    <link rel="stylesheet" href="projeto.css">
+    <link rel="stylesheet" href="estilo-padrao/header.css">
+    <link rel="stylesheet" href="estilo-padrao/footer.css">
+    <link rel="icon" href="logo/logof2.png">
+</head>
+
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <div class="header-bar">
+            <h1 class="logo">
+                <img src="logo/logopreta.png" alt="">
+            </h1>
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="nossaequipe.html">Nossa Equipe</a></li>
+                <li><a href="projeto.html">Projetos</a></li>
+                <li><a href="ambienteehistoria.html">Ambiente e História</a></li>
+                <li><a href="odontopediatria.html">Odontopediatria</a></li>
+                <li><a href="resultados.html">Resultados</a></li>
+            </ul>
+             <!-- Botão de menu mobile -->
+        <div class="menu-toggle" onclick="toggleMenu()">&#9776;</div>
+        </div>
+    </header>
+    <!-- Conteúdo da Página -->
+    <div class="content">
+        <h1>Projeto de Prevenção</h1>
+        <p>O Programa de Prevenção Odontológica, coordenado pela Dra. Érica Carvalho em parceria com o Colégio Atenas e o Colégio Gabarito, trabalha de acordo com os parâmetros da Base Nacional Comum Curricular. A oitava competência geral propõe o autoconhecimento e o autocuidado, educando para uma vida real onde a informação pura é acompanhada do “sentir”.</p>
+
+        <div class="projeto-section">
+            <h2>Objetivos</h2>
+            <p>O Programa de Prevenção Odontológica, liderado pela Dra. Érica Carvalho e em parceria com o Colégio Atenas e o Colégio Gabarito, tem como objetivo cuidar da saúde bucal dos alunos. O programa busca desenvolver as potencialidades dos alunos e incentivar a responsabilidade pelo autocuidado, alinhando-se à oitava competência da Base Nacional Comum Curricular. Através deste programa, os alunos são motivados a valorizar e cuidar de sua saúde bucal.</p>
+            <img src="imgdoprojeto/clinica1234.jpeg" alt="Descrição da imagem 2">
+            <img src="imgdoprojeto/img4.jpeg" alt="Descrição da imagem 2">
+        </div>
+
+        <div class="projeto-section">
+            <h2>Atividades</h2>
+            <p>Anualmente, a equipe pedagógica da escola elabora atividades com o objetivo de atender a todas as expectativas da Base Nacional Curricular. No ano de 2023, o foco do projeto “Saúde Vida” foi o autocuidado e o autoconhecimento. O projeto ressalta a importância da contribuição individual para a harmonia coletiva, enfatizando: “A paz é semeada quando cada um faz a sua parte. Qual é a parte que me cabe?”.</p>
+            <img src="imgdoprojeto/clinica123.jpeg" alt="Descrição da imagem 1">
+            <img src="imgdoprojeto/img23.jpeg" alt="Descrição da imagem 2">
+        </div>
+
+        <div class="projeto-section">
+            <h2>Como se envolver</h2>
+            <p>Todos os anos, os pais recebem uma proposta para que seus filhos participem do programa de prevenção das escolas. Neste ano, as escolas parceiras foram o Colégio Atenas e o Colégio Gabarito. Visitas quinzenais ou mensais são realizadas de acordo com a proposta de cada escola. O Projeto de Prevenção Odontológica não se limita ao ambiente escolar. Na clínica, também é oferecido um programa de prevenção, onde os pais podem escolher atividades que auxiliem nos cuidados com a higiene bucal de seus filhos.</p>
+            <img src="imgdoprojeto/clinica12345.jpeg" alt="Descrição da imagem 3">
+            <img src="imgdoprojeto/img6.jpeg" alt="Descrição da imagem 3">
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-bar pure-g">
+            <!-- Links para redes sociais -->
+            <a class="pure-u-1 pure-u-md-1-8" href="https://www.instagram.com/dra_ericacarvalho/">
+                <div class="icon-footer">
+                    <img class="icon-social" src="logo/icon_instagram-sem-fundo.png" alt="">
+                    <h1>Instagram</h1>
+                </div>
+            </a>
+            <a class="pure-u-1 pure-u-md-1-8" href="https://www.facebook.com/draericadiascarvalho">
+                <div class="icon-footer">
+                    <img class="icon-social" src="logo/Facebook_Icon-sem-fundo.png" alt="">
+                    <h1>Facebook</h1>
+                </div>
+            </a>
+  
+            <a class="pure-u-1 pure-u-md-1-8" href="https://wa.me/message/V3JZYTTWDZJVJ1">
+                <div class="icon-footer">
+                    <img class="icon-social" src="logo/WhatsApp.png.png" alt="">
+                    <h1>WhatsApp</h1>
+                </div>
+            </a>
+
+            <div class="pure-u-1 pure-u-md-1-2">
+                <h1>&copy; 2024 Clínica Odontologia Avançada Érica Carvalho. Todos os direitos reservados.</h1>
+            </div>
+        </div>
+    </footer>
+    <script>
+        function toggleMenu() {
+            var menu = document.querySelector('.menu');
+            menu.classList.toggle('active');
+        }
+    
+        // Adicione essa parte para fechar o menu ao clicar em um item
+        var menuItems = document.querySelectorAll('.menu a');
+        menuItems.forEach(function (item) {
+            item.addEventListener('click', function () {
+                var menu = document.querySelector('.menu');
+                menu.classList.remove('active');
+            });
+        });
+    </script>
+</body>
+
+</html>

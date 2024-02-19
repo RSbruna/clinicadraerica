@@ -1,0 +1,222 @@
+<head>
+    <!-- Configuração de caracteres e viewport para responsividade -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <!-- Título da página -->
+    <title>Odontopediatria</title>
+
+    <!-- Importação de estilos externos -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css" integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/grids-responsive-min.css">
+    <link rel="stylesheet" href="odontopediatria.css">
+    <link rel="stylesheet" href="estilo-padrao/header.css">
+    <link rel="stylesheet" href="estilo-padrao/footer.css">
+    <link rel="icon" href="logo/logof2.png">
+</head>
+
+
+<body>
+       <!-- Cabeçalho -->
+    <header>
+        <div class="header-bar">
+            <h1 class="logo">
+                <img src="logo/logopreta.png" alt="">
+            </h1>
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="nossaequipe.html">Nossa Equipe</a></li>
+                <li><a href="projeto.html">Projetos</a></li>
+                <li><a href="ambienteehistoria.html">Ambiente e História</a></li>
+                <li><a href="odontopediatria.html">Odontopediatria</a></li>
+                <li><a href="resultados.html">Resultados</a></li>
+            </ul>
+             <!-- Botão de menu mobile -->
+        <div class="menu-toggle" onclick="toggleMenu()">&#9776;</div>
+        </div>
+    </header>
+
+
+    <!-- Conteúdo da Página -->
+    <div class="pure-g content">
+        <div class="pure-u-1">
+            <h1>Para as Crianças</h1>
+            <p>Apresentamos uma seção interativa e educativa, repleta de atividades divertidas. Aqui, as crianças podem explorar uma variedade de desenhos para colorir, jogos educativos, quizzes interessantes e muito mais! Esta seção é projetada para estimular a criatividade e o aprendizado, enquanto proporciona horas de diversão.</p>
+        </div>
+
+        <div class="pure-u-1">
+            <h2>Desenhos para Colorir</h2>
+            <div class="coloring-images pure-g">
+                <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-4 coloring-image">
+                    <img src="imgparacolorir/imgcolo1 (3).jpeg" alt="Desenho 1">
+                </div>
+                <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-4 coloring-image">
+                    <img src="imgparacolorir/imgcolo1 (2).jpeg" alt="Desenho 2">
+                </div>
+                <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-4 coloring-image">
+                    <img src="imgparacolorir/img56.jpeg" alt="Desenho 3">
+                </div>
+                <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-4 coloring-image">
+                    <img src="imgparacolorir/imgcolo6 (1).jpeg" alt="Desenho 4">
+                </div>
+                <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-4 coloring-image">
+                    <img src="imgparacolorir/imgcolo6 (2).jpeg" alt="Desenho 4">
+                </div>
+                <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-4 coloring-image">
+                    <img src="imgparacolorir/imgcolo6 (4).jpeg" alt="Desenho 4">
+                </div>
+            </div>
+        </div>
+
+        <div class="pure-u-1 quiz-container">
+            <h2>Quiz de Saúde Bucal:</h2>
+            <ol>
+                <li>Qual é a recomendação geral para escovação dos dentes?</li>
+                <ul>
+                    <li><input type="radio" name="q1" value="a"> a. Uma vez por dia</li>
+                    <li><input type="radio" name="q1" value="b"> b. Duas vezes por dia</li>
+                    <li><input type="radio" name="q1" value="c"> c. Três vezes por semana</li>
+                </ul>
+
+                <li>O que o fio dental ajuda a remover?</li>
+                <ul>
+                    <li><input type="radio" name="q2" value="a"> a. Bactérias</li>
+                    <li><input type="radio" name="q2" value="b"> b. Restos de comida entre os dentes</li>
+                    <li><input type="radio" name="q2" value="c"> c. Pintinhas verdes nos dentes</li>
+                </ul>
+
+                <li>Por que é importante trocar a escova de dentes regularmente?</li>
+                <ul>
+                    <li><input type="radio" name="q3" value="a"> a. Porque sim</li>
+                    <li><input type="radio" name="q3" value="b"> b. Para manter as cerdas sempre macias</li>
+                    <li><input type="radio" name="q3" value="c"> c. Para garantir uma limpeza eficaz e evitar o
+                        acúmulo de bactérias</li>
+                </ul>
+
+                <li>Quantas vezes por ano é recomendado fazer uma visita ao dentista para check-ups?</li>
+                <ul>
+                    <li><input type="radio" name="q4" value="a"> a. Nunca</li>
+                    <li><input type="radio" name="q4" value="b"> b. Uma vez por ano</li>
+                    <li><input type="radio" name="q4" value="c"> c. A cada 5 anos</li>
+                </ul>
+
+                <li>O que é importante para ter um sorriso saudável?</li>
+                <ul>
+                    <li><input type="radio" name="q5" value="a"> a. Comer muitos doces</li>
+                    <li><input type="radio" name="q5" value="b"> b. Escovar os dentes regularmente, usar fio
+                        dental, ter uma dieta equilibrada e fazer visitas regulares ao dentista</li>
+                    <li><input type="radio" name="q5" value="c"> c. Ignorar a saúde bucal</li>
+                </ul>
+            </ol>
+
+            <button onclick="verificarRespostas()">Verificar Respostas</button>
+        </div>
+        <div class="pure-u-1">
+            <h2>Dicas Mágicas de Escovação</h2>
+            <p>Escovar os dentes é muito importante para manter a sua boca limpa e saudável. Mas você sabe como fazer isso do jeito certo? Aqui estão algumas dicas que vão te ajudar a ter uma escovação perfeita:</p>
+            <div onclick="location.href='fonts/dicas.pdf.pdf';" style="cursor:pointer;">
+              <img class="pdf-preview" src="imgparacolorir/imgdpdf.png" alt="Pré-visualização do PDF">
+              <a href="fonts/dicas.pdf.pdf" target="_blank">Abrir PDF</a>
+            </div>
+          </div>
+        
+    </div>
+    <!-- Rodapé -->
+    <footer>
+        <div class="footer-bar pure-g">
+            <!-- Links para redes sociais -->
+            <a class="pure-u-1 pure-u-md-1-8" href="https://www.instagram.com/dra_ericacarvalho/">
+                <div class="icon-footer">
+                    <img class="icon-social" src="logo/icon_instagram-sem-fundo.png" alt="">
+                    <h1>Instagram</h1>
+                </div>
+            </a>
+            <a class="pure-u-1 pure-u-md-1-8" href="https://www.facebook.com/draericadiascarvalho">
+                <div class="icon-footer">
+                    <img class="icon-social" src="logo/Facebook_Icon-sem-fundo.png" alt="">
+                    <h1>Facebook</h1>
+                </div>
+            </a>
+            <a class="pure-u-1 pure-u-md-1-8" href="https://wa.me/message/V3JZYTTWDZJVJ1">
+                <div class="icon-footer">
+                    <img class="icon-social" src="logo/WhatsApp.png.png" alt="">
+                    <h1>WhatsApp</h1>
+                </div>
+            </a>
+    
+            <div class="pure-u-1 pure-u-md-1-2">
+                <h1>&copy; 2024 Clínica Odontologia Avançada Érica Carvalho. Todos os direitos reservados.</h1>
+            </div>
+        </div>
+    </footer>
+    
+    <script>
+        function verificarRespostas() {
+            // Array com as respostas corretas
+            const respostasCorretas = ['b', 'b', 'c', 'b', 'b'];
+    
+            // Inicialização da pontuação
+            let pontuacao = 0;
+    
+            // Loop através das perguntas e respostas
+            for (let i = 1; i <= 5; i++) {
+                const respostaSelecionada = obterRespostaSelecionada(`q${i}`);
+                const respostaCorreta = respostasCorretas[i - 1];
+    
+                // Verifica se a resposta está correta
+                if (respostaSelecionada === respostaCorreta) {
+                    pontuacao++;
+                }
+            }
+    
+            // Exibe a mensagem personalizada
+            exibirMensagemPersonalizada(pontuacao);
+        }
+    
+        function obterRespostaSelecionada(name) {
+            // Obtém a resposta selecionada para uma pergunta
+            const opcoes = document.getElementsByName(name);
+            for (const opcao of opcoes) {
+                if (opcao.checked) {
+                    return opcao.value;
+                }
+            }
+            return null; // Retorna nulo se nenhuma resposta for selecionada
+        }
+    
+        function exibirMensagemPersonalizada(pontuacao) {
+            let mensagem = '';
+    
+            // Mensagens personalizadas com base na pontuação
+            if (pontuacao === 5) {
+                mensagem = 'Parabéns! Você foi incrível! 🌟';
+            } else if (pontuacao >= 3) {
+                mensagem = 'Muito bem! Você se saiu muito bem! 👏';
+            } else if (pontuacao >= 1) {
+                mensagem = 'Você tentou! Continue praticando. 🙂';
+            } else {
+                mensagem = 'Ops! Parece que precisamos estudar um pouco mais. 📚';
+            }
+    
+            // Exibe a mensagem
+            alert(`Sua pontuação: ${pontuacao} de 5\n\n${mensagem}`);
+        }
+    </script>
+    
+    <script>
+       document.addEventListener('fonts/dicas.pdf.pdf ', function() {
+    // Seu código JavaScript aqui
+    var seuElemento = document.getElementById('seuElementoId');
+    if (seuElemento) {
+        seuElemento.addEventListener('click', function() {
+            // Seu código de manipulação de evento aqui
+            console.log('Clicado!');
+        });
+    }
+});
+    </script>
+    
+
+</body>
+
+</html>
